@@ -2,7 +2,6 @@
   "name": "kgf",
   "version": "1.0.0",
   "description": "Keep Going Fitness GYM Website",
-  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
