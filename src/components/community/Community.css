@@ -1,0 +1,37 @@
+.community-container {
+  padding: 100px 80px;
+  background-color: var(--black);
+  color: #ffffff;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+.images {
+  display: flex;
+}
+.images > img {
+  height: 150px;
+  width: 150px;
+  border: 5px solid black;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.overlap {
+  position: relative;
+  margin: 0 0 0 -40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .community-container {
+    padding: 100px 20px;
+  }
+  .images > img {
+    height: 40px;
+    width: 40px;
+  }
+  .overlap {
+    position: relative;
+    margin: 0 0 0 -20px;
+  }
+}

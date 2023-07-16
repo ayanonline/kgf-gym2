@@ -1,0 +1,64 @@
+.membersip-card {
+  margin: 10px;
+  width: 260px;
+  background: #211f1fbd;
+  border: 3px solid#343434;
+  border-radius: 10px;
+  transition: 0.8s;
+  padding: 20px;
+  cursor: pointer;
+}
+.membersip-card:hover {
+  border: 3px solid #a1e533;
+}
+.membership-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.membership-title > h6 {
+  color: #a1e533;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.membership-title > h1 {
+  margin: 5px 0 10px 0;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.membership-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.membership-details > h2 {
+  font-size: 30px;
+  color: #a1e533;
+  letter-spacing: 2px;
+  margin: 8px 0;
+}
+.membership-details > h3 {
+  margin: 3px 0;
+  font-weight: normal;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.features > ul {
+  padding: 20px;
+}
+.features > ul > li {
+  font-size: 14px;
+  padding: 5px 0;
+  color: var(--second-primary-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .membersip-card {
+    margin: 10px;
+    width: 260px;
+  }
+}

@@ -1,0 +1,14 @@
+.program-container {
+  padding: 40px 80px;
+  background-color: var(--black);
+  color: var(--secondary-color);
+}
+.program-container > p {
+  color: var(--second-primary-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .program-container {
+    padding: 40px 0 40px 20px;
+  }
+}

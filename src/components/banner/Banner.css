@@ -1,0 +1,30 @@
+.banner {
+  height: 400px;
+  padding: 80px;
+  background-color: var(--black);
+  color: var(--primary-color);
+  background-image: url("https://res.cloudinary.com/dj1umpbbs/image/upload/v1683547009/1_toksx0.png");
+  background-size: cover;
+}
+.banner > p {
+  margin-bottom: 10px;
+  font-size: 100px;
+  color: var(--secondary-color);
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    height: 200px;
+    padding: 0;
+    padding: 10px;
+    background-image: url("https://res.cloudinary.com/dj1umpbbs/image/upload/v1683714318/1_izdxun.png");
+  }
+  .banner > h1 {
+    font-size: 16px;
+  }
+  .banner > p {
+    font-size: 35px;
+    color: var(--secondary-color);
+  }
+}

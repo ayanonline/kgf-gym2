@@ -1,0 +1,42 @@
+.review-card {
+  min-width: 300px;
+  margin: 20px 20px 20px 0;
+  background-color: var(--primary-color);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.review-card > p {
+  font-size: 20px;
+  font-weight: 700;
+}
+.review-user {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+.review-user > img {
+  height: 70px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.user-info {
+  padding: 0 20px;
+}
+.user-info > h5 {
+  color: var(--second-primary-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .review-card {
+    min-width: 200px;
+    padding: 10px;
+  }
+  .review-card > p {
+    font-size: 12px;
+  }
+  .review-user > img {
+    height: 40px;
+  }
+}

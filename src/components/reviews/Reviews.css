@@ -1,0 +1,28 @@
+.reviews-container {
+  padding: 40px 80px;
+}
+.reviews-container > p {
+  color: var(--second-primary-color);
+}
+.reviews {
+  display: flex;
+  justify-content: space-evenly;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overflow-wrap: normal;
+}
+.reviews::-webkit-scrollbar {
+  height: 10px;
+  background-color: var(--second-secondary-color);
+}
+.reviews::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+}
+@media only screen and (max-width: 600px) {
+  .reviews-container {
+    padding: 20px 40px;
+  }
+  .reviews {
+    justify-content: flex-start;
+  }
+}
