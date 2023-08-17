@@ -9,7 +9,7 @@ function Membership() {
       id: 4,
       title: "12 Months",
       price: 6000,
-      entryFee: "Free(first 100)",
+      entryFee: "Free",
       basicTraining: true,
       features: [
         "3hour drive traning time",

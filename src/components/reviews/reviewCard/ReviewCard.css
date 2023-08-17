@@ -6,10 +6,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  border-radius: 0.5rem;
 }
 .review-card > p {
   font-size: 20px;
   font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
 }
 .review-user {
   display: flex;

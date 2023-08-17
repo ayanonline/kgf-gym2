@@ -4,11 +4,16 @@ import "./ReviewCard.css";
 function ReviewCard(props) {
   return (
     <div className="review-card">
-      <p>Best GYM ever, I love this GYM, Good trainer</p>
+      <p>
+        Best GYM ever, I love this GYM, Good Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit. Dolores, nisi! Blanditiis nulla debitis
+        dolores nesciunt facilis assumenda voluptatum minima repellat magnam,
+        quaerat nihil adipisci eveniet voluptatibus qui fuga, expedita tempora?
+      </p>
       <div className="review-user">
         <img
-          src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png"
-          alt=""
+          src="https://lh3.googleusercontent.com/ogw/AGvuzYbDvrUkRF83D4iFSPTLoDEAB4mH5vRv_agiVYZEZpc=s32-c-mo"
+          alt="user-icon"
         />
         <div className="user-info">
           <h4>Ayan Ghosh</h4>

@@ -1,66 +1,7 @@
-.footer-container {
-  padding: 80px;
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--secondary-background-color);
-  color: var(--secondary-color);
-}
-.left {
-  width: 30%;
-}
-.middle {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.right > .bar {
-  width: 1px;
-  height: 250px;
-  background-color: var(--primary-color);
-}
-.right {
-  width: 40%;
+footer {
+  padding: 2rem 1rem;
+  background-color: black;
+  color: white;
   display: flex;
   justify-content: center;
-}
-.inner-right {
-  padding: 0 20px;
-}
-.inner-right > h1 {
-  font-weight: 900;
-  text-transform: uppercase;
-  margin: 0 0 10px 0;
-}
-.inner-right > p {
-  color: var(--second-secondary-color);
-  line-height: 20px;
-  margin: 0 0 20px 0;
-}
-.footer-bottom {
-  padding: 10px 80px;
-  background-color: var(--secondary-background-color);
-  color: var(--second-secondary-color);
-  display: flex;
-  justify-content: space-between;
-}
-.footer-bottom > p {
-  font-size: 14px;
-}
-
-@media only screen and (max-width: 600px) {
-  .footer-container {
-    padding: 20px;
-    flex-direction: column-reverse;
-  }
-  .footer-container > div {
-    width: 100%;
-  }
-  .footer-bottom {
-    padding: 20px;
-  }
-  .footer-bottom > p {
-    font-size: 11px;
-  }
 }

@@ -1,0 +1,49 @@
+.contact-container {
+  margin: 1rem auto;
+  padding: 2rem;
+  width: 60vw;
+}
+.form-group {
+  margin-right: 2rem;
+  width: 30vw;
+}
+form {
+  margin: 1rem 0;
+}
+form > input,
+textarea,
+button {
+  outline: none;
+  margin: 0 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 0.1rem solid rgb(158, 158, 158);
+  border-radius: 0.2rem;
+}
+textarea {
+  height: 5rem;
+  resize: vertical;
+}
+form > button {
+  cursor: pointer;
+}
+.address {
+  width: 30vw;
+}
+.address-item {
+  margin: 1rem 0 0.2rem;
+  color: rgb(180, 180, 180);
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-container {
+    flex-direction: column;
+    width: 80vw;
+  }
+  .form-group {
+    margin-right: 0rem;
+    width: 100%;
+  }
+  .address {
+    width: 100%;
+  }
+}
