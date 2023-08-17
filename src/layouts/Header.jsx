@@ -4,6 +4,8 @@ import menuIcon from "../assets/menu.png";
 function Header() {
   return (
     <>
+      <header></header>
+      <nav></nav>
       <div className="nav-bar">
         <img
           className="logo"
@@ -14,8 +16,12 @@ function Header() {
           <li>
             <a href="#program">PROGRAMS</a>
           </li>
-          <li>TESTIMONIALS</li>
-          <li>CONTACT</li>
+          <li>
+            <a href="#membership">MEMBERSHIP</a>
+          </li>
+          <li>
+            <a href="#contact">CONTACT</a>
+          </li>
           <li>
             <button>SIGN IN FOR MEMBERS</button>
           </li>

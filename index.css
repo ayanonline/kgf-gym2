@@ -6,7 +6,7 @@
 html {
   scroll-behavior: smooth;
   touch-action: pan-y;
-  user-select: none;
+  /* user-select: none; */
 }
 a {
   text-decoration: none;

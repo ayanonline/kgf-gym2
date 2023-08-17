@@ -3,7 +3,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <section className="flex justify-between contact-container">
+    <section id="contact" className="flex justify-between contact-container">
       <div className="form-group ">
         <h3>Contact Us</h3>
         <p>We usually respond before 24 hours</p>

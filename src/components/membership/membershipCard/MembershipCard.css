@@ -10,6 +10,7 @@
 }
 .membersip-card:hover {
   border: 3px solid #a1e533;
+  scale: 1.02;
 }
 .membership-title {
   display: flex;

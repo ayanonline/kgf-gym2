@@ -67,7 +67,7 @@ function Membership() {
     },
   ]);
   return (
-    <div className="membership-container">
+    <section id="membership" className="membership-container">
       <SectionHeading title="MEMBERSHIP" />
       <p>
         Your body can do it. It's time to convince
@@ -78,7 +78,7 @@ function Membership() {
           return <MembershipCard key={item.id} data={item} />;
         })}
       </div>
-    </div>
+    </section>
   );
 }
 
